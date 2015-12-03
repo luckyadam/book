@@ -1,0 +1,44 @@
+{
+  "name": "book",
+  "version": "0.0.1",
+  "description": "小书屋",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyadam/book.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "luckyadam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckyadam/book/issues"
+  },
+  "homepage": "https://github.com/luckyadam/book#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "connect-livereload": "^0.5.4",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.4.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.8",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "react": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "redux-devtools": "^2.1.5"
+  }
+}
