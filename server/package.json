@@ -25,6 +25,7 @@
     "connect-livereload": "^0.5.4",
     "connect-mongo": "^0.8.2",
     "cookie-parser": "^1.4.0",
+    "cors": "^2.7.1",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "express-session": "^1.12.1",

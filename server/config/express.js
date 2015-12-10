@@ -12,6 +12,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var cookieParser = require('cookie-parser');
 var errorHandler = require('errorhandler');
+var cors = require('cors')
 var path = require('path');
 var config = require('./environment');
 var passport = require('passport');
@@ -28,6 +29,7 @@ module.exports = function(app) {
   app.use(bodyParser.json());
   app.use(methodOverride());
   app.use(cookieParser());
+  app.use(cors());
   app.use(passport.initialize());
   app.use(session({
     secret: config.secrets.session,
