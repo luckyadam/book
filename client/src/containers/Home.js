@@ -23,7 +23,6 @@ export default class Home extends Component {
 
   render () {
     const { bookList, tagList } = this.props;
-    console.log(bookList);
     return (
       <div>
         <Header />
