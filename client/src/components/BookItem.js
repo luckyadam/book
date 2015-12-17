@@ -4,23 +4,24 @@ import React, { Component } from 'react';
 
 export default class BookItem extends Component {
 
-  applyBook (e, book) {
+  applyBook (book, e) {
 
   }
 
-  deleteBook (e, book) {
+  deleteBook (book, e) {
 
   }
 
-  viewBookDetail (e, book) {
+  viewBookDetail (book, e) {
+    e.preventDefault();
+    alert(book);
+  }
+
+  passApply (book, e) {
 
   }
 
-  passApply (e, book) {
-
-  }
-
-  unPassApply (e, book) {
+  unPassApply (book, e) {
 
   }
 
